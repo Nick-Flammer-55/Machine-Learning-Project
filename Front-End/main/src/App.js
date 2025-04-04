@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import { Typography, Container } from '@mui/material';
+import TeamPicker from './components/TeamPicker';
 import './App.css';
 
 function App() {
+  const [homeTeam, setHomeTeam] = useState("")
+  const [guestTeam, setGuestTeam] = useState("")
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Container
+        sx={{
+          height: '15vh',
+          display: 'flex',
+          justifyContent: 'space-evenly',
+          alignItems: 'center',
+          padding: '10px',
+        }}  
+      >
+        <img src="/assets/logo-nba.svg" alt="" width={150}/>
+      </Container>
+      <Container
+        sx={{
+          height: '25vh',
+          display: 'flex',
+          justifyContent: 'space-evenly',
+          alignItems: 'center',
+          padding: '10px',
+        }}  
+      >
+        <TeamPicker 
+          team={homeTeam}
+          opTeam={guestTeam}
+          setTeam = {setHomeTeam}
+        />
+        <Typography>VS</Typography>
+        <TeamPicker 
+          team={guestTeam}
+          opTeam={homeTeam}
+          setTeam={setGuestTeam}
+        />
+      </Container>
     </div>
   );
 }
