@@ -1,0 +1,214 @@
+{
+    "teams": [
+        {
+            "team": "atl",
+            "full_name": "Atlanta Hawks",
+            "logo": "/assets/team_logos/atl.svg",
+            "primary_color": "#E03A3E",
+            "secondary_color": "#FFFFFF"
+        },
+        {
+            "team": "bkn",
+            "full_name": "Brooklyn Nets",
+            "logo": "/assets/team_logos/bkn.svg",
+            "primary_color": "#000000",
+            "secondary_color": "#FFFFFF"
+        },
+        {
+            "team": "bos",
+            "full_name": "Boston Celtics",
+            "logo": "/assets/team_logos/bos.svg",
+            "primary_color": "#007A33",
+            "secondary_color": "#FFFFFF"
+        },
+        {
+            "team": "cha",
+            "full_name": "Charlotte Hornets",
+            "logo": "/assets/team_logos/cha.svg",
+            "primary_color": "#1D1160",
+            "secondary_color": "#00788C"
+        },
+        {
+            "team": "chi",
+            "full_name": "Chicago Bulls",
+            "logo": "/assets/team_logos/chi.svg",
+            "primary_color": "#CE1141",
+            "secondary_color": "#000000"
+        },
+        {
+            "team": "cle",
+            "full_name": "Cleveland Cavaliers",
+            "logo": "/assets/team_logos/cle.svg",
+            "primary_color": "#860038",
+            "secondary_color": "#FDBB30"
+        },
+        {
+            "team": "dal",
+            "full_name": "Dallas Mavericks",
+            "logo": "/assets/team_logos/dal.svg",
+            "primary_color": "#00538C",
+            "secondary_color": "#B8C4CA"
+        },
+        {
+            "team": "den",
+            "full_name": "Denver Nuggets",
+            "logo": "/assets/team_logos/den.svg",
+            "primary_color": "#0E2240",
+            "secondary_color": "#FEC524"
+        },
+        {
+            "team": "det",
+            "full_name": "Detroit Pistons",
+            "logo": "/assets/team_logos/det.svg",
+            "primary_color": "#C8102E",
+            "secondary_color": "#002D62"
+        },
+        {
+            "team": "gsw",
+            "full_name": "Golden State Warriors",
+            "logo": "/assets/team_logos/gsw.svg",
+            "primary_color": "#1D428A",
+            "secondary_color": "#FFC72C"
+        },
+        {
+            "team": "hou",
+            "full_name": "Houston Rockets",
+            "logo": "/assets/team_logos/hou.svg",
+            "primary_color": "#CE1141",
+            "secondary_color": "#000000"
+        },
+        {
+            "team": "ind",
+            "full_name": "Indiana Pacers",
+            "logo": "/assets/team_logos/ind.svg",
+            "primary_color": "#002D62",
+            "secondary_color": "#FDBB30"
+        },
+        {
+            "team": "lac",
+            "full_name": "Los Angeles Clippers",
+            "logo": "/assets/team_logos/lac.svg",
+            "primary_color": "#C8102E",
+            "secondary_color": "#1D428A"
+        },
+        {
+            "team": "lal",
+            "full_name": "Los Angeles Lakers",
+            "logo": "/assets/team_logos/cle.svg",
+            "primary_color": "#552583",
+            "secondary_color": "#FDB927"
+        },
+        {
+            "team": "mem",
+            "full_name": "Memphis Grizzlies",
+            "logo": "/assets/team_logos/mem.svg",
+            "primary_color": "#5D76A9",
+            "secondary_color": "#12173F"
+        },
+        {
+            "team": "mia",
+            "full_name": "Miami Heat",
+            "logo": "/assets/team_logos/mia.svg",
+            "primary_color": "#98002E",
+            "secondary_color": "#F9A01B"
+        },
+        {
+            "team": "mil",
+            "full_name": "Milwaukee Bucks",
+            "logo": "/assets/team_logos/mil.svg",
+            "primary_color": "#00471B",
+            "secondary_color": "#EEE1C6"
+        },
+        {
+            "team": "min",
+            "full_name": "Minnesota Timberwolves",
+            "logo": "/assets/team_logos/min.svg",
+            "primary_color": "#0C2340",
+            "secondary_color": "#236192"
+        },
+        {
+            "team": "nop",
+            "full_name": "New Orleans Pelicans",
+            "logo": "/assets/team_logos/nop.svg",
+            "primary_color": "#0C2340",
+            "secondary_color": "#C8102E"
+        },
+        {
+            "team": "nyk",
+            "full_name": "New York Knicks",
+            "logo": "/assets/team_logos/nyk.svg",
+            "primary_color": "#006BB6",
+            "secondary_color": "#F58426"
+        },
+        {
+            "team": "okc",
+            "full_name": "Oklahoma City Thunder",
+            "logo": "/assets/team_logos/okc.svg",
+            "primary_color": "#007AC1",
+            "secondary_color": "#EF3B24"
+        },
+        {
+            "team": "orl",
+            "full_name": "Orlando Magic",
+            "logo": "/assets/team_logos/orl.svg",
+            "primary_color": "#0077C0",
+            "secondary_color": "#C4CED4"
+        },
+        {
+            "team": "phi",
+            "full_name": "Philadelphia 76ers",
+            "logo": "/assets/team_logos/phi.svg",
+            "primary_color": "#006BB6",
+            "secondary_color": "#ED174C"
+        },
+        {
+            "team": "phx",
+            "full_name": "Phoenix Suns",
+            "logo": "/assets/team_logos/phx.svg",
+            "primary_color": "#1D1160",
+            "secondary_color": "#E56020"
+        },
+        {
+            "team": "por",
+            "full_name": "Portland Trailblazers",
+            "logo": "/assets/team_logos/por.svg",
+            "primary_color": "#E03A3E",
+            "secondary_color": "#000000"
+        },
+        {
+            "team": "sac",
+            "full_name": "Sacramento Kings",
+            "logo": "/assets/team_logos/sac.svg",
+            "primary_color": "#5A2D81",
+            "secondary_color": "#63727A"
+        },
+        {
+            "team": "sas",
+            "full_name": "San Antonio Spurs",
+            "logo": "/assets/team_logos/sas.svg",
+            "primary_color": "#C4CED4",
+            "secondary_color": "#000000"
+        },
+        {
+            "team": "tor",
+            "full_name": "Toronto Raptors",
+            "logo": "/assets/team_logos/tor.svg",
+            "primary_color": "#CE1141",
+            "secondary_color": "#000000"
+        },
+        {
+            "team": "uta",
+            "full_name": "Utah Jazz",
+            "logo": "/assets/team_logos/uta.svg",
+            "primary_color": "#002B5C",
+            "secondary_color": "#00471B"
+        },
+        {
+            "team": "was",
+            "full_name": "Washington Wizards",
+            "logo": "/assets/team_logos/was.svg",
+            "primary_color": "#002B5C",
+            "secondary_color": "#E31837"
+        }
+    ]
+}
