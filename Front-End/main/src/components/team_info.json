@@ -2,6 +2,7 @@
     "teams": [
         {
             "team": "atl",
+            "id": 1610612737,
             "full_name": "Atlanta Hawks",
             "logo": "/assets/team_logos/atl.svg",
             "primary_color": "#E03A3E",
@@ -9,6 +10,7 @@
         },
         {
             "team": "bkn",
+            "id": 1610612751,
             "full_name": "Brooklyn Nets",
             "logo": "/assets/team_logos/bkn.svg",
             "primary_color": "#000000",
@@ -16,6 +18,7 @@
         },
         {
             "team": "bos",
+            "id": 1610612738,
             "full_name": "Boston Celtics",
             "logo": "/assets/team_logos/bos.svg",
             "primary_color": "#007A33",
@@ -23,6 +26,7 @@
         },
         {
             "team": "cha",
+            "id": 1610612766,
             "full_name": "Charlotte Hornets",
             "logo": "/assets/team_logos/cha.svg",
             "primary_color": "#1D1160",
@@ -30,6 +34,7 @@
         },
         {
             "team": "chi",
+            "id": 1610612741,
             "full_name": "Chicago Bulls",
             "logo": "/assets/team_logos/chi.svg",
             "primary_color": "#CE1141",
@@ -37,6 +42,7 @@
         },
         {
             "team": "cle",
+            "id": 1610612739,
             "full_name": "Cleveland Cavaliers",
             "logo": "/assets/team_logos/cle.svg",
             "primary_color": "#860038",
@@ -44,6 +50,7 @@
         },
         {
             "team": "dal",
+            "id": 1610612742,
             "full_name": "Dallas Mavericks",
             "logo": "/assets/team_logos/dal.svg",
             "primary_color": "#00538C",
@@ -51,6 +58,7 @@
         },
         {
             "team": "den",
+            "id": 1610612743,
             "full_name": "Denver Nuggets",
             "logo": "/assets/team_logos/den.svg",
             "primary_color": "#0E2240",
@@ -58,6 +66,7 @@
         },
         {
             "team": "det",
+            "id": 1610612765,
             "full_name": "Detroit Pistons",
             "logo": "/assets/team_logos/det.svg",
             "primary_color": "#C8102E",
@@ -65,6 +74,7 @@
         },
         {
             "team": "gsw",
+            "id": 1610612744,
             "full_name": "Golden State Warriors",
             "logo": "/assets/team_logos/gsw.svg",
             "primary_color": "#1D428A",
@@ -72,6 +82,7 @@
         },
         {
             "team": "hou",
+            "id": 1610612745,
             "full_name": "Houston Rockets",
             "logo": "/assets/team_logos/hou.svg",
             "primary_color": "#CE1141",
@@ -79,6 +90,7 @@
         },
         {
             "team": "ind",
+            "id": 1610612754,
             "full_name": "Indiana Pacers",
             "logo": "/assets/team_logos/ind.svg",
             "primary_color": "#002D62",
@@ -86,6 +98,7 @@
         },
         {
             "team": "lac",
+            "id": 1610612746,
             "full_name": "Los Angeles Clippers",
             "logo": "/assets/team_logos/lac.svg",
             "primary_color": "#C8102E",
@@ -93,6 +106,7 @@
         },
         {
             "team": "lal",
+            "id": 1610612756,
             "full_name": "Los Angeles Lakers",
             "logo": "/assets/team_logos/cle.svg",
             "primary_color": "#552583",
@@ -100,6 +114,7 @@
         },
         {
             "team": "mem",
+            "id": 1610612763,
             "full_name": "Memphis Grizzlies",
             "logo": "/assets/team_logos/mem.svg",
             "primary_color": "#5D76A9",
@@ -107,6 +122,7 @@
         },
         {
             "team": "mia",
+            "id": 1610612748,
             "full_name": "Miami Heat",
             "logo": "/assets/team_logos/mia.svg",
             "primary_color": "#98002E",
@@ -114,6 +130,7 @@
         },
         {
             "team": "mil",
+            "id": 1610612749,
             "full_name": "Milwaukee Bucks",
             "logo": "/assets/team_logos/mil.svg",
             "primary_color": "#00471B",
@@ -121,6 +138,7 @@
         },
         {
             "team": "min",
+            "id": 1610612750,
             "full_name": "Minnesota Timberwolves",
             "logo": "/assets/team_logos/min.svg",
             "primary_color": "#0C2340",
@@ -128,6 +146,7 @@
         },
         {
             "team": "nop",
+            "id": 1610612740,
             "full_name": "New Orleans Pelicans",
             "logo": "/assets/team_logos/nop.svg",
             "primary_color": "#0C2340",
@@ -135,6 +154,7 @@
         },
         {
             "team": "nyk",
+            "id": 1610612752,
             "full_name": "New York Knicks",
             "logo": "/assets/team_logos/nyk.svg",
             "primary_color": "#006BB6",
@@ -142,6 +162,7 @@
         },
         {
             "team": "okc",
+            "id": 1610612760,
             "full_name": "Oklahoma City Thunder",
             "logo": "/assets/team_logos/okc.svg",
             "primary_color": "#007AC1",
@@ -149,6 +170,7 @@
         },
         {
             "team": "orl",
+            "id": 1610612753,
             "full_name": "Orlando Magic",
             "logo": "/assets/team_logos/orl.svg",
             "primary_color": "#0077C0",
@@ -156,6 +178,7 @@
         },
         {
             "team": "phi",
+            "id": 1610612755,
             "full_name": "Philadelphia 76ers",
             "logo": "/assets/team_logos/phi.svg",
             "primary_color": "#006BB6",
@@ -163,6 +186,7 @@
         },
         {
             "team": "phx",
+            "id": 1610612756,
             "full_name": "Phoenix Suns",
             "logo": "/assets/team_logos/phx.svg",
             "primary_color": "#1D1160",
@@ -170,6 +194,7 @@
         },
         {
             "team": "por",
+            "id": 1610612757,
             "full_name": "Portland Trailblazers",
             "logo": "/assets/team_logos/por.svg",
             "primary_color": "#E03A3E",
@@ -177,6 +202,7 @@
         },
         {
             "team": "sac",
+            "id": 1610612758,
             "full_name": "Sacramento Kings",
             "logo": "/assets/team_logos/sac.svg",
             "primary_color": "#5A2D81",
@@ -184,6 +210,7 @@
         },
         {
             "team": "sas",
+            "id": 1610612759,
             "full_name": "San Antonio Spurs",
             "logo": "/assets/team_logos/sas.svg",
             "primary_color": "#C4CED4",
@@ -191,6 +218,7 @@
         },
         {
             "team": "tor",
+            "id": 1610612761,
             "full_name": "Toronto Raptors",
             "logo": "/assets/team_logos/tor.svg",
             "primary_color": "#CE1141",
@@ -198,6 +226,7 @@
         },
         {
             "team": "uta",
+            "id": 1610612762,
             "full_name": "Utah Jazz",
             "logo": "/assets/team_logos/uta.svg",
             "primary_color": "#002B5C",
@@ -205,6 +234,7 @@
         },
         {
             "team": "was",
+            "id": 1610612764,
             "full_name": "Washington Wizards",
             "logo": "/assets/team_logos/was.svg",
             "primary_color": "#002B5C",

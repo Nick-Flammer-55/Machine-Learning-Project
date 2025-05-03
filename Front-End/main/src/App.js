@@ -2,21 +2,35 @@ import React, {useEffect, useState} from 'react';
 import { Typography, Container, Slider, Box } from '@mui/material';
 import TeamPicker from './components/TeamPicker';
 import axios from 'axios';
-import teamAssets from './components/team_info.json';
 import './App.css';
 
 function App() {
   const [homeTeam, setHomeTeam] = useState(null);
   const [guestTeam, setGuestTeam] = useState(null);
-  //const [homeTeamData, setHomeTeamData] = useState(null);
-  //const [guestTeamData, setGuestTeamData] = useState(null);
   const [winningTeam, setWinningTeam] = useState("");
   const [winningTeamPercentage, setWinningTeamPercentage] = useState(0);
 
-  // useEffect(() => {
-  //   // setHomeTeamData(teamAssets.teams.find(item => item.team === homeTeam));
-  //   // setGuestTeamData(teamAssets.teams.find(item => item.team === guestTeam));
-  // }, [homeTeam, guestTeam])
+  useEffect(() => {
+    const handlePrediction = async () => {
+      try {
+        const res = await axios.post(`http://127.0.0.1/predict`, { homeTeam, guestTeam });
+        setWinningTeam(res.data.winner);
+        setWinningTeamPercentage(res.data.winner_probability)
+      } catch (error) {
+        console.error("Error fetching prediction result:", error);
+      }
+    };
+    handlePrediction()
+  }, [homeTeam, guestTeam])
+    // const handlePrediction = async () => {
+    //   try {
+    //     const res = await axios.post(`${process.env.REACT_APP_API_URL}/predict`, { homeTeam, guestTeam });
+    //     setWinningTeam(res.data.winner);
+    //     setWinningTeamPercentage(res.data.winner_probability)
+    //   } catch (error) {
+    //     console.error("Error fetching prediction result:", error);
+    //   }
+    // }
 
   return (
     <div className='App'>

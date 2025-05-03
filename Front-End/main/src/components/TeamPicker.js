@@ -4,9 +4,6 @@ import teamAssets from './team_info.json';
 
 function TeamPicker(props) {
 
-  const imagePath = `/assets/team_logos/${props.team}.svg`;
-  //
-
   const getTeam = (team) => {
     return (teamAssets.teams.find(item => item.team === team))
   };
